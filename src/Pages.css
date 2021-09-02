@@ -1,0 +1,89 @@
+.loginpage{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+.logincontainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    margin: 3rem 2rem;
+    padding: 2.5rem;
+    border-radius: 8px;
+}
+.loginimage{
+    display: none;
+}
+.welcome{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.8rem;
+}
+.logininput{
+    border: 1px solid rgb(182, 178, 178);
+    padding: 1rem;
+    border-radius: 4rem;
+}
+.logininput:focus{
+   outline: none;
+   box-shadow:  0 0 0 2pt rgb(167, 218, 224);
+}
+.remembercheck{
+    display: flex;
+    align-items: center;
+}
+.loginbutton{
+    color:white;
+    background-color: rgb(34, 132, 212);
+    border: none;
+    padding: 0.9rem;
+    border-radius: 4rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.loginbutton:active{
+    border:1px solid rgb(180, 175, 175);
+}
+.loginlinebreak{
+    padding: 1rem;
+}
+.googlelogin{
+    background-color: rgb(212, 76, 52);
+}
+.facebooklogin{
+    background-color: rgb(10, 42, 133);
+}
+.loginfooter{
+    font-size: 0.9rem;
+}
+.container404{
+    margin: 4rem auto; 
+}
+.content404{
+    text-align: center;
+}
+.description404{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4rem;
+}
+.glitchtext404{
+    opacity: 0.5;
+    color: rgb(96, 96, 143);
+}
+.animation404{
+    font-size: 6rem;
+    
+}
+@media (min-width:570px){
+    .logincontainer{
+        width: 430px;
+        margin: 3rem auto;
+    }
+}
